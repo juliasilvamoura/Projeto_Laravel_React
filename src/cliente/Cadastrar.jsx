@@ -84,8 +84,7 @@ class CadastrarCliente extends React.Component {
       this.setState(
         {
           state: this.initState(),
-        },
-        listarCliente()
+        }, this.listarCliente()
       );
     }
   }
